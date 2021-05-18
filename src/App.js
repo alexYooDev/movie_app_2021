@@ -41,7 +41,7 @@ Food.propTypes = {
   image: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
 };
-// 가져오려는 prop의 타입을 정의
+// 가져오려는 prop의 타입을 정의 -> prop 정보가 틀릴 경우 에러로 알려줌
 
 function App() {
   //component HTML을 반환하는 함수
